@@ -1,0 +1,13 @@
+{
+  "package": {
+    "homepage": "https://myusername.github.io/my-app",
+    "dependencies": {
+      "gh-pages": "^2.2.0",
+      "styled-components": "^5.0.1"
+    },
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  }
+}

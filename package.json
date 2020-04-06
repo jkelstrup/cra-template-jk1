@@ -1,0 +1,26 @@
+{
+  "name": "cra-template-jk1",
+  "description": "Create React App including Styled Components and deploy to GitHub Pages.",
+  "version": "0.1.0",
+  "author": "Jonas Kelstrup",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "styled-components",
+    "gh-pages"
+  ],
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkelstrup/cra-template-jkelstrup"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
