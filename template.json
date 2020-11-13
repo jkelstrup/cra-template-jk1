@@ -1,12 +1,13 @@
 {
   "package": {
-    "homepage": "https://myusername.github.io/my-app",
+    "homepage": "https://example.com",
     "dependencies": {
-      "@testing-library/jest-dom": "^4.2.4",
-      "@testing-library/react": "^9.5.0",
-      "@testing-library/user-event": "^7.2.1",
-      "gh-pages": "^2.2.0",
-      "styled-components": "^5.0.1"
+      "@testing-library/jest-dom": "^5.11.5",
+      "@testing-library/react": "^11.1.2",
+      "@testing-library/user-event": "^12.2.2",
+      "gh-pages": "^3.1.0",
+      "styled-components": "^5.2.1",
+      "web-vitals": "^0.2.4"
     },
     "scripts": {
       "predeploy": "npm run build",

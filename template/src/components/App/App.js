@@ -37,7 +37,7 @@ const AppLogo = styled.img`
 `;
 
 const AppLink = styled.a`
-  color: #61dafb;
+  color: #FF0066;
 `;
 
 const Code = styled.code`
