@@ -3,10 +3,6 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components/macro';
 import logo from 'img/logo.svg';
 
-const App = styled.div`
-  text-align: center;
-`;
-
 const AppHeader = styled.header`
   background-color: #282c34;
   min-height: 100vh;
@@ -44,9 +40,9 @@ const Code = styled.code`
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 `;
 
-export default function() {
+export default function App() {
   return (
-    <App>
+    <>
       <AppHeader>
         <AppLogo src={logo} alt="logo" />
         <p>
@@ -60,6 +56,6 @@ export default function() {
           Learn React
         </AppLink>
       </AppHeader>
-    </App>
+    </>
   );
 }
